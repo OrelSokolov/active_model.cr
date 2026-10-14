@@ -1,0 +1,127 @@
+naming_param_key	"person"
+naming_route_key	"people"
+naming_singular_route	"person"
+naming_i18n_key	"person"
+naming_human	"Person"
+naming_name	"Person"
+naming_uncount_route	"series_index"
+naming_uncount_sroute	"series"
+translation_human_attr	"First name"
+conv_to_key_new	nil
+conv_to_param_new	nil
+conv_to_key_persisted	A[42]
+conv_to_param_persisted	"42"
+conv_to_model	true
+api_persisted	false
+api_to_param	nil
+api_model_name	"ApiModel"
+api_to_partial_path	"api_models/api_model"
+model_assign	"Ann/3"
+model_valid	true
+model_invalid	false
+model_invalid_msgs	A["Name can't be blank"]
+model_unknown_kwarg	raise:ActiveModel::UnknownAttributeError
+model_unknown_assign	raise:ActiveModel::UnknownAttributeError
+assign_string_keys	"Bo"
+model_name_on_instance	"person"
+val_presence_blank	A["can't be blank"]
+val_presence_ok	false
+val_absence	A["must be blank"]
+val_length_short	A["is too short (minimum is 2 characters)"]
+val_length_long	A["is too long (maximum is 5 characters)"]
+val_length_boundary_min	true
+val_format_bad	A["is invalid"]
+val_confirmation_mism	A[]
+val_acceptance_unset	A[]
+val_inclusion_out	A["is not included in the list"]
+val_numericality_str	A[]
+val_numericality_bool	A["is not a number"]
+val_num_int_gt	A["must be greater than 5"]
+val_num_int_lte	true
+val_num_int_gt_ok	true
+val_num_float_not_int	A["must be an integer"]
+val_context_create_x	A["can't be blank"]
+val_context_create_y_ok	true
+val_context_update_y	A["can't be blank"]
+val_context_default	A[]
+val_if_b_true	A["can't be blank"]
+val_if_b_false	true
+val_custom_each	A["not upcase","must start with Z"]
+val_custom_method	A["must start with Z"]
+val_custom_ok	true
+val_strict_raise	raise:ActiveModel::StrictValidationFailed
+val_unknown_validator	raise:ArgumentError
+err_add_msgs	A["can't be blank"]
+err_add_custom	A["custom text"]
+err_details	A[H{:error=>:invalid}]
+err_full_messages	A["Name can't be blank"]
+err_full_messages_for	A["Age is not a number"]
+err_where	1
+err_added	true
+err_added_false	false
+err_include	true
+err_count	2
+err_empty	true
+err_delete	0
+err_attribute_names	A[:name,:age]
+err_as_json	H{:name=>A["can't be blank"]}
+err_invalid_interactive	A["M must be greater than 5"]
+dirty_initial	A[false,A[],H{}]
+dirty_changed	true
+dirty_changed_list	A["name"]
+dirty_changes	H{"name"=>A[nil,"bob"]}
+dirty_was	nil
+dirty_attr_changed_q	true
+dirty_attr_change	A[nil,"bob"]
+dirty_applied	false
+dirty_prev_changed	A[true,A[nil,"bob"]]
+dirty_prev_change_same	true
+dirty_restore	A["bob",false]
+dirty_same_value	false
+dirty_changed_attrs	A["name"]
+cb_order	A[:before,:around_in,:yield,:around_out,:after]
+cb_abort	A[:yield]
+ser_as_json	H{"age"=>1,"name"=>"a"}
+ser_as_json_methods	H{"age"=>nil,"name"=>"a","shout"=>"a!"}
+ser_serializable_only	H{"name"=>"a"}
+ser_serializable_except	H{"age"=>2}
+ser_to_json	"{\"name\":\"a\",\"age\":null}"
+ser_from_json	A["z","5"]
+ser_from_json_types	String
+ser_from_json_typed	5
+ser_typed_writer	7
+ser_typed_assign	9
+attrs_default	7
+attrs_hash	H{"age"=>7,"note"=>nil}
+attrs_cast_write	9
+attrs_string_nil	nil
+type_bool_zero	false
+type_bool_one	true
+type_bool_empty	nil
+type_bool_nil	nil
+type_bool_false	false
+type_int_str	42
+type_int_bad	0
+type_int_float	4
+type_int_nil	nil
+type_string_nil	nil
+type_string_int	"7"
+type_float_str	4.25
+type_lookup_int	ActiveModel::Type::Integer
+type_lookup_string	ActiveModel::Type::String
+type_lookup_bool	ActiveModel::Type::Boolean
+sp_blank_invalid	H{:password=>A[H{:error=>:blank}]}
+sp_authenticate_ok	true
+sp_authenticate_bad	false
+sp_too_long_invalid	A[:password]
+sp_too_long_auth_ok	true
+sp_too_long_alias	true
+sp_digest_present_valid	true
+sp_confirmation_mism	A[:password_confirmation]
+sp_digest_kind	true
+forbidden_hash	H{:name=>"x"}
+forbidden_raise	raise:ActiveModel::ForbiddenAttributesError
+forbidden_assign_ok	"N"
+access_slice	H{"name"=>"q"}
+access_values_at	A["q"]
+access_attributes	H{"name"=>"q"}
